@@ -13,7 +13,7 @@ spring:
   application:
     name: rental-service
   datasource:
-    url: jdbc:mongodb://localhost:5432/rentacarrental
+    url: jdbc:mongodb://localhost:27017/rentacarrental
   jpa:
     hibernate:
       ddl-auto: update
