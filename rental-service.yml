@@ -13,16 +13,14 @@ spring:
   application:
     name: rental-service
   datasource:
-    password: 1375
-    url: jdbc:postgresql://localhost:5432/rentacarrental
-    username: postgres
+    url: jdbc:mongodb://localhost:5432/rentacarrental
   jpa:
     hibernate:
       ddl-auto: update
       show-sql: true
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
+        dialect: org.hibernate.dialect.MongoDBDialect
       javax:
         persistence:
           validation:
