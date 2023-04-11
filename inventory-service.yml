@@ -14,7 +14,7 @@ spring:
         name: inventory-service
     datasource:
         password: psql@123
-        url: jdbc:postgresql://localhost:5432/rentacarInventory
+        url: jdbc:postgresql://localhost:5432/rentacarinventory
         username: postgres
     jpa:
         hibernate:
