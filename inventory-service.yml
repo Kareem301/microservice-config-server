@@ -45,5 +45,6 @@ spring:
             value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
         topic:
             name: topic-inventory
-   
+zipkin:
+  base-url: http://localhost:9411/zipkin/
    
