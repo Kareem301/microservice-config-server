@@ -13,7 +13,7 @@ spring:
     application:
         name: inventory-service
     datasource:
-        password: 1375
+        password: psql@123
         url: jdbc:postgresql://localhost:5432/rentacarinventory
         username: postgres
     jpa:
